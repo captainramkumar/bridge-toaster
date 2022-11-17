@@ -1,6 +1,6 @@
 {
   "name": "bridge-toaster",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Bridge toaster - an elegant and simple notification for javascript, with no dependencies",
   "main": "./dist/bridge-toaster.min.js",
   "repository": {
@@ -12,7 +12,7 @@
     "build-js": "babel src/bridge-toaster.js --out-file dist/bridge-toaster.min.js --presets=es2015,babili",
     "build": "yarn run build-sass && yarn run build-js"
   },
-  "author": "Salvador Mahave Duran",
+  "author": "Ramkumar R",
   "keywords": [
     "javascript",
     "notification",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/captainramkumar/bridge-toaster/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/captainramkumar/bridge-toaster#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-babili": "^0.1.4",
