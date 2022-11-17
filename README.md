@@ -21,14 +21,14 @@ npm i bridge-toaster
 ```
 
 ```javascript
-import simpleToaster from "bridge-toaster"
+import bridgeToaster from "bridge-toaster"
 
-simpleToaster('success', 'Hello Toaster!')
+bridgeToaster('success', 'Hello Toaster!')
 ```
 
 Parameters:
 ```javascript
-simpleToaster(
+bridgeToaster(
   'error',    // Toaster style type. Pre-defined: error, warning or success
   'message',  // Message
   false       // Timeout in ms (default: 5000)
